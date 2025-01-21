@@ -1,0 +1,27 @@
+<jnic>
+	<targets>
+		<target>WINDOWS_X86_64</target>
+		<!-- <target>LINUX_X86_64</target>
+		<target>MACOS_X86_64</target>
+
+		<target>WINDOWS_AARCH64</target>
+		<target>MACOS_AARCH64</target>
+		<target>LINUX_AARCH64</target> -->
+	</targets>
+
+	<options>
+		<stringObf>false</stringObf>
+		<flowObf>false</flowObf>
+	</options>
+
+	<include>
+		<match className="com/.*"/>  
+	</include>
+
+	<!-- <exclude>    
+		<match className="com/.*"/>
+	</exclude>
+
+	<includeAnnotation>com/yumegod/obfuscation/Include</includeAnnotation> -->
+	<!-- <excludeAnnotation>com/yumegod/obfuscation/Exclude</excludeAnnotation> -->
+</jnic>
